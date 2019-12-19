@@ -36,8 +36,7 @@ const layoutManage = import('@/components/layout/layout-manage.vue')
   // vue官方的一种方法，import()方法和增加webpackChunkName。
   // 1.需要安装 cnpm i -s @babel/plugin-syntax-dynamic-import
   // 2.配置webpack，在webpack-base-conf.js的output加入chunkFilename: ‘[name].js’
-
-  component: () => import(/* webpackChunkName: "HelloWorld" */ '@/components/HelloWorld')
+  //  component: () => import(/* webpackChunkName: "HelloWorld" */ '@/components/HelloWorld')
 
 const routers = [
   {
